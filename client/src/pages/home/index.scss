@@ -1,0 +1,244 @@
+#Home{  
+    .bgImg{
+        width: 100%;
+        height: 100vh;
+        margin-top: -85px;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(60, 68, 75, 0.9),
+            rgb(65, 70, 75, 0.9)
+          ),
+          url("../../img/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container{
+            .homeHeaderInfo{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 25%;
+                margin-bottom: 150px;
+                .headerH1{
+                    color: #fff;
+                    font-size: 42px;
+                }
+                .headerParag{
+                    width: 75%;
+                    font-size: 19px;
+                    color: rgb(145, 145, 145);
+                    margin: 19px 0;
+                    line-height: 33px;
+                }
+                .homeHeaderBtn{
+                    padding: 16px 30px;
+                    background-color: #7870EA;
+                    border: none;
+                    border-radius: 22px;
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+            .sign-up{
+                background-color: #fff;
+                width: 50%;
+                border-radius: 7px;
+                padding: 50px 30px;
+             .SignUpH2{
+                margin-bottom: 22px;
+                font-size: 25px;
+                font-weight: 400;
+             }
+                .signInput{
+                    margin-bottom: 14px;
+                    input{
+                        width: 100%;
+                        font-size: 15px;
+                        padding: 14px 10px;
+                        border: 1px solid rgba(128, 128, 128, 0.3);
+                       
+                    }
+                }
+            }
+            @media only screen and (max-width: 992px) {
+                .homeHeaderInfo{
+                    display: block;
+                    padding-left: 70px;
+                    .sign-up{
+                        margin-top: 30px;
+                        width: 80%;
+                    }
+                }
+              }
+
+            }
+        }
+        .container{
+            .ourPrograms{
+              margin-top: 100px;
+              .programsTitle{
+                .programsH1{
+                    font-size: 48px;
+                    margin-bottom: 14px;
+                }
+                text-align: center;
+                margin-bottom: 80px;
+              }
+              .excellentInEducation{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                .ex-img{
+                    width: 70%;
+                }
+                .ex-txt{
+                    width: 30%;
+                    .ex-txt-h2{
+                        margin-bottom: 20px;
+                        font-size: 34px;
+                        font-weight: 400;
+                    }
+                    .ex-txt-parag{
+                        line-height: 35px;
+                        color: rgba(117, 117, 117, 0.9);
+                    }
+
+                    .cap-uni{
+                        margin-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+                        .icon{
+                            color: #fff;
+                            padding: 10px 12px;
+                            border-radius: 50%;
+                            background-color: #7870EA;
+                        }
+                        span{
+                            font-size: 18px;
+                            color: #7870EA;
+                        }
+                    }
+                }
+              }
+              @media only screen and (max-width: 992px) {
+                .excellentInEducation{
+                    display: block;
+                    padding-left: 70px;
+                    .ex-txt{
+                        width: 100%;
+                    }
+                }
+              }
+            }
+
+
+            .strive{
+                .excellentTeaching{
+                    margin-top: 150px;
+                    display: flex;
+                    align-items: center;
+                    .ex-txt{
+                        width: 30%;
+                        margin-left: 150px;
+                        .ex-txt-h2{
+                            margin-bottom: 20px;
+                            font-size: 34px;
+                            font-weight: 400;
+                        }
+                        .ex-txt-parag{
+                            line-height: 35px;
+                            color: rgba(117, 117, 117, 0.9);
+                        }
+    
+                        .cap-uni{
+                            margin-top: 20px;
+                            display: flex;
+                            align-items: center;
+                            column-gap: 10px;
+                            .icon{
+                                color: #fff;
+                                padding: 10px 12px;
+                                border-radius: 50%;
+                                background-color: #7870EA;
+                            }
+                            span{
+                                font-size: 18px;
+                                color: #7870EA;
+                            }
+                        }
+                    }
+                    padding-bottom: 80px;
+                }
+                @media only screen and (max-width: 992px) {
+                    .excellentTeaching{
+                        display: block;
+                        flex-direction: column-reverse;
+                        .ex-txt{
+                            width: 100%;
+                            margin-left: 70px;
+                        }
+                    }
+                  }
+            }
+
+            .ourTeachers{
+                margin-bottom: 50px;
+                text-align: center;
+                .ourTeachersHeader{
+                    margin-bottom: 20px;
+                    font-size: 47px;
+                }
+                .ourTeachersParag{
+                    width: 48%;
+                    margin: 0 auto;
+                    color: rgba(117, 117, 117, 0.9);
+                    margin-bottom: 50px;
+                }
+            }
+
+            .messageUs{
+                padding-top: 90px;
+                width: 50%;
+                margin: 0 auto;
+                .messageH1{
+                    font-size: 43px;
+                    margin-bottom: 15px;
+                }
+                .messageParag{
+                    color: rgba(117, 117, 117, 0.9);
+                }
+                .messageInfo{
+                    margin-bottom: 20px;
+                }
+                form{
+                    .two-inputs{
+                        width: 100%;
+                        display: flex;
+                        column-gap: 20px;
+                    }
+                    input{
+                        border: 1px solid rgba(128, 128, 128, 0.4);
+                        border-radius: 3px;
+                        margin-bottom: 15px;
+                        width: 100%;
+                        padding: 14px 10px;
+                    }
+                    textarea{
+                        padding: 7px 15px;
+                        border: 1px solid rgba(128, 128, 128, 0.4);
+                        border-radius: 3px;
+                    }
+                }
+                .sendMessageBtn{
+                    margin: 20px 0;
+                    padding: 16px 0;
+                    width: 50%;
+                    border: none;
+                    background-color: #7870EA;
+                    color: #fff;
+                    border-radius: 20px;
+                    margin-bottom: 80px;
+                }
+            }
+        }
+}

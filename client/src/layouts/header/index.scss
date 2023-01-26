@@ -1,0 +1,37 @@
+
+#Header{
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 95px;
+            background-color: transparent;
+            color: #fff;
+            .logo{
+              h1{
+                font-size: 21px;
+              }
+            }
+            ul{
+                display: flex;
+                column-gap: 35px;
+                list-style: none;
+                a{
+                  text-decoration: none;
+                  color: #fff;
+                  font-size: 20px;
+                  &:focus{
+                    border-bottom: 2px solid #fff;
+                  }
+                }
+            }
+            .headerBtn{
+                padding: 10px 15px;
+                border-radius: 17px;
+                border: none;
+                background-color: #7870EA;
+                color: #fff;
+            }
+        }
+
+}

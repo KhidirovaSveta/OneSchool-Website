@@ -1,0 +1,38 @@
+#AddTeacher{
+    width: 100%;
+    height: 100vh;
+    margin-top: -85px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(60, 68, 75, 0.9),
+        rgb(65, 70, 75, 0.9)
+      ),
+      url("../../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+         .form{
+            padding: 250px 100px;
+            margin-left: 210px;
+            .addHeader{
+                font-size: 45px;
+                color: #fff;
+                margin-bottom: 20px;
+            }
+            .formikInput{
+                margin-bottom: 20px;
+                input{
+                    padding: 12px 10px;
+                    width: 70%;
+                }
+            }
+            .addBtn{
+                padding: 10px 0;
+                width: 70%;
+                background-color: #7870EA;
+                border: none;
+                color: #fff;
+            }
+         }
+    }
+}
